@@ -1,0 +1,54 @@
+nav {
+    background-color: white;
+    padding: 20px;
+    padding-top: 30px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+ul li {
+    display: inline; /* Alinha os itens na horizontal */
+    margin-right: 80px; /* Espaçamento entre os elementos */
+}
+nav ul li a {
+    font-size: 1.5em;
+    color: #78451a;
+    font-weight: bold;
+}
+nav ul li:hover {
+    text-decoration: underline;
+    color: #a06c3f;
+}
+.grid-section {
+    display: flex; /* Alterado para Flexbox */
+    justify-content: space-between; /* Espaçamento entre as colunas */
+    padding: 20px;
+}
+.coluna-1 {
+    color: #78451a;
+    font-size: 1.5rem;
+    padding-top: 60px;
+    padding-left: 160px;
+    flex: 1; /* Permite que a coluna 1 cresça */
+}
+.coluna-2 {
+    display: flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center; 
+    height: 100%; 
+    padding-top: 30px;
+    padding-right: 200px;
+    flex: 1; /* Permite que a coluna 2 cresça */
+}
+.coluna-2 img {
+    max-width: 100%; /* A imagem não excederá a largura da coluna */
+    width: 400px;
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço disponível */
+    border-radius: 90%;
+}
+p {
+    line-height: 1.5;
+}
